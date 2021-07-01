@@ -1,0 +1,60 @@
+ #mybtn {
+            align-items: center;
+            display: block;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: whitesmoke;
+            background-color: rgb(245, 42, 103);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        nav {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+a:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+        #pages1 {
+            color: rgb(58, 162, 247);
+            text-align: center;
+            padding-left: 300px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #pages2 {
+            color: rgb(73, 170, 250);
+            text-align: center;
+            padding-left: 500px;
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+        }
